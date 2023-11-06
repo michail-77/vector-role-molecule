@@ -6,7 +6,7 @@ pipeline {
         stage('Get role') {
             steps {
                 dir('vector-role') {
-                    git branch: 'main', url: 'https://github.com/michail-77/vector-role.git'
+                    git branch: 'main', url: 'https://github.com/michail-77/vector-role-molecule.git'
                 }
             }
         }
