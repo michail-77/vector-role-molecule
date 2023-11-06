@@ -1,0 +1,6 @@
+galaxy_info:
+  role_name: vector_role
+  namespace: mikhail
+  description: Install Vector
+  license: MIT
+  min_ansible_version: 2.1
