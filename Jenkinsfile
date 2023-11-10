@@ -10,9 +10,9 @@ pipeline {
         }
         stage('Molecule install') {
             steps{
-                sh 'pip3 install molecule==5.1.0'
-#                sh 'pip3 install ansible-lint==5.1.3'
-                sh 'pip3 install molecule_docker'
+                sh 'pip3.9 install molecule==5.1.0'
+#                sh 'pip3.9 install ansible-lint==5.1.3'
+                sh 'pip3.9 install molecule_docker'
             }
         }
         stage('Molecule test'){
