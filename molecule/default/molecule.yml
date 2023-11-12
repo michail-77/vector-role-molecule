@@ -5,7 +5,8 @@ driver:
   name: docker
 platforms:
   - name: centos7
-    image: docker.io/centos:7
+#    image: docker.io/centos:7
+    image: quay.io/centos/centos:centos7
     pre_build_image: true
   - name: ubuntu
     image: docker.io/ubuntu:latest
